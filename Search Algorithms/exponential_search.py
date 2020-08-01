@@ -18,4 +18,4 @@ def exponentialSearch(array, x):
     i = 1
     while i < n and array[i] <= x:
         i = i * 2
-    return binarySearchRecursive(array, int(i/2), min(i, n), x)
+    return binarySearchRecursive(array, int(i / 2), min(i, n), x)
