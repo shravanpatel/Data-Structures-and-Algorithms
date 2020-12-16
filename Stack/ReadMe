@@ -1,0 +1,15 @@
+Stack is an Abstract Data Type that serves as a collection of elements. It follows Last In First Out order to access the elements from stack.
+
+Ways to Implement:
+1. Array 
+2. Linked List
+
+The time complexity of operational methods to access elements is.
+
+Data Structure of Stack		Operation		Time Complexity
+Array or Linked List		Accessing		O(n)
+				Insertion		O(1)
+				Deletion		O(1)		
+
+
+
