@@ -1,0 +1,15 @@
+Prim’s Algorithm for Minimum Spanning Tree is an algorithm for finding a minimum spanning tree for a weighted undirected graph.
+
+Ways to Implement:
+1. Adjacency Matrix – Searching
+2. Adjacency List – Binary Heap
+3. Adjacency List – Priority Queue with decrease key
+4. Adjacency List – Priority Queue without decrease key
+
+The time complexity of Prim’s algorithm depends on the data structures used for the graph and for ordering the edges by weight.
+
+Data Structure of Graph		Ordering					Time Complexity
+Adjacency Matrix		Searching					O(|V|2)
+Adjacency List			Binary Heap					O(|E|log|V|)
+Adjacency List			Priority Queue with decrease key		O(|E|2log|V|)
+Adjacency List			Priority Queue without decrease key 		O(|E|log|V|)

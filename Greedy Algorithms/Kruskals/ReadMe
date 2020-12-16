@@ -1,0 +1,10 @@
+Kruskal’s Algorithm for Minimum Spanning Tree is an algorithm for finding a minimum spanning tree for a connected weighted graph.
+
+Ways to Implement:
+1. Adjacency List – Priority Queue 
+
+The time complexity of Kruskal’s algorithm depends on the data structures used for the graph and for ordering the edges by weight.
+
+Data Structure of Graph		Ordering		Time Complexity
+Adjacency List			Priority Queue 		O(|E|2log|V|)
+

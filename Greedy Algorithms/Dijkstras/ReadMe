@@ -1,0 +1,15 @@
+Dijkstra’s Algorithm or Shortest Path First Algorithm is an algorithm for finding the shortest paths between nodes in a weighted undirected graph.
+
+Ways to Implement:
+1. Adjacency Matrix – Searching
+2. Adjacency List – Binary Heap
+3. Adjacency List – Priority Queue
+4. Adjacency List – TreeMap and Pair class
+
+The time complexity of Dijkstra algorithm depends on the data structures used for the graph and for ordering the edges by weight.
+
+Data Structure of Graph		Ordering		Time Complexity
+Adjacency Matrix		Searching		O(|V|2)
+Adjacency List			Binary Heap		O(|E|log|V|)
+Adjacency List			Priority Queue		O(|E|log|V|)
+Adjacency List			TreeMap			O(|E|log|V|)
