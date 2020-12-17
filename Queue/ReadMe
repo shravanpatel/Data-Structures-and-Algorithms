@@ -1,0 +1,15 @@
+Queue is an Abstract Data Type that serves as a collection of elements that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence. It follows First In First Out order to access the elements from queue.
+
+Ways to Implement:
+1. Array 
+2. Linked List
+
+The time complexity of operational methods to access elements is.
+
+Data Structure of Stack		Operation		Time Complexity
+Array or Linked List		Accessing		O(n)
+				Insertion		O(1)
+				Deletion		O(1)		
+
+
+
